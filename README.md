@@ -7,7 +7,7 @@ The double integral is converted to a line integral using Green's Theorem.
 The new integrand is calculated by numerically solving an ODE with arbitrary initial condition using Euler's method.
 The ODE approximation is given on a grid and then interpolated.
 The line integral is approximated with equally spaced quadrature.
-There is a first order finite difference approximation required.
+There is a first order finite difference approximation used.
 
 getpaths(n1,n2,n3,n4) generates the paths that define the domain with ni points for the ith path
 
