@@ -21,4 +21,5 @@ greens_ex1(n1,n2,n3,n4,n) and greens_ex2(n1,n2,n3,n4,n) approximate the integral
 ni points are used for the quadrature on the ith path. 
 n points are used in the x and y directions to approximate the ODE to convert the integrand.
 A first order finite difference approximation is used.
-Overall convergence is first order.
+Overall convergence is first order. 
+n1=n2=n3=n4=n=100 is a good initial choice to try the code.
