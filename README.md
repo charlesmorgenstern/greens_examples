@@ -14,7 +14,7 @@ getpaths(n1,n2,n3,n4) generates the paths that define the domain with ni points 
 plotdomain_ex1() and plotdomain_ex2() plot the domain and the integrand for the two examples
 
 plot_integrand_ex1() and plot_integrand_ex2() plots the converted integrand for the line integral
-The integrand is approximated on a grid using Euler's method to solve an ODE with arbitrary initial conditions
+The integrand is approximated on a grid using Euler's method to solve an ODE with arbitrary initial conditions.
 The grid approximation is interpolated. The grid and interpolation are plotted together.
 
 greens_ex1(n1,n2,n3,n4,n) and greens_ex2(n1,n2,n3,n4,n) approximate the integral and report relative error
