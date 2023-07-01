@@ -17,7 +17,7 @@ plot_integrand_ex1() and plot_integrand_ex2() plots the converted integrand for 
 The integrand is approximated on a grid using Euler's method to solve an ODE with arbitrary initial conditions.
 The grid approximation is interpolated. The grid and interpolation are plotted together.
 
-greens_ex1(n1,n2,n3,n4,n) and greens_ex2(n1,n2,n3,n4,n) approximate the integral and report relative error
+greens_ex1(n1,n2,n3,n4,n) and greens_ex2(n1,n2,n3,n4,n) approximate the integral and report relative error.
 ni points are used for the quadrature on the ith path. 
 n points are used in the x and y directions to approximate the ODE to convert the integrand.
 A first order finite difference approximation is used.
